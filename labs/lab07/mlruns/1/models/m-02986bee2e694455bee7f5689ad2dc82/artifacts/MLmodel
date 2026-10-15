@@ -1,0 +1,24 @@
+artifact_path: /Users/sarahwinne/Downloads/CSCI345_Machine-Learning_Fall2026-main/labs/lab07/mlruns/1/models/m-02986bee2e694455bee7f5689ad2dc82/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.4
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.1
+model_id: m-02986bee2e694455bee7f5689ad2dc82
+model_size_bytes: 1801252
+model_uuid: m-02986bee2e694455bee7f5689ad2dc82
+prompts: null
+run_id: b00dbb38b44d4ff98dfbe48aac314b36
+utc_time_created: '2026-10-15 13:35:29.026143'
